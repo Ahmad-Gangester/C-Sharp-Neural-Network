@@ -131,7 +131,7 @@ namespace NN
         #region Gets & Sets
         public double OutPutvalue { get => outputValue; set { outputValue = value; } }
 
-        public double getOutputWeightOf(int n) => outputWights[n].Weight;
+        private double getOutputWeightOf(int n) => outputWights[n].Weight;
         #endregion
     }
 }
